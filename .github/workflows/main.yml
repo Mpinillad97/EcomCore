@@ -28,4 +28,4 @@ jobs:
         context: ./back/ecommerce-mpinillad97
         file: ./back/ecommerce-mpinillad97/Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/ecommerce-m4:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/ecommerce-m4:v1.1
