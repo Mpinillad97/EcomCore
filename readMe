@@ -1,0 +1,104 @@
+# NestJS E-Commerce API
+
+## Descripción (Español)  
+Este proyecto es una API backend para un sistema de comercio electrónico, desarrollada con NestJS y TypeScript. Permite gestionar usuarios, productos, órdenes de compra y la actualización de imágenes de productos. 
+
+## Description (English)  
+This project is a backend API for an e-commerce system, built with NestJS and TypeScript. It allows managing users, products, purchase orders, and updating product images.
+
+---
+
+## Características Principales (Español)
+- Autenticación y autorización con JWT y bcrypt.
+- Gestión de usuarios, productos y órdenes de compra.
+- Documentación con Swagger UI.
+- Base de datos con TypeORM y PostgreSQL.
+- Desplegado en Render.
+
+## Key Features (English)
+- Authentication and authorization using JWT and bcrypt.
+- Management of users, products, and purchase orders.
+- API documentation with Swagger UI.
+- Database management with TypeORM and PostgreSQL.
+- Deployed on Render.
+
+---
+
+## Tecnologías Utilizadas (Español)
+- **Backend:** NestJS, TypeScript
+- **Base de datos:** PostgreSQL, TypeORM
+- **Seguridad:** JWT, bcrypt
+- **Herramientas:** Swagger, Cloudinary, Docker, Render
+
+## Technologies Used (English)
+- **Backend:** NestJS, TypeScript
+- **Database:** PostgreSQL, TypeORM
+- **Security:** JWT, bcrypt
+- **Tools:** Swagger, Cloudinary, Docker, Render
+
+---
+
+## Instalación y Uso (Español)
+1. Clonar el repositorio:
+   ```sh
+   git clone https://github.com/Mpinillad97/EcomCore
+   ```
+2. Instalar dependencias:
+   ```sh
+   npm install
+   ```
+3. Configurar variables de entorno (.env)
+4. Ejecutar el servidor en desarrollo:
+   ```sh
+   npm run start:dev
+   ```
+
+## Installation and Usage (English)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Mpinillad97/EcomCore
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Set up environment variables (.env)
+4. Run the development server:
+   ```sh
+   npm run start:dev
+   ```
+
+---
+
+## Documentación API (Español)
+La documentación de la API está disponible en Swagger UI:
+```
+http://localhost:3002/api
+```
+
+## API Documentation (English)
+The API documentation is available on Swagger UI:
+```
+http://localhost:3002/api
+```
+
+---
+
+## Contribución (Español)
+Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un issue o un pull request.
+
+## Contribution (English)
+Contributions are welcome. If you’d like to contribute, please open an issue or a pull request.
+
+---
+
+## Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo [`LICENSE`](./LICENSE) para más detalles.
+
+## License
+This project is licensed under the MIT License. See the [`LICENSE`](./LICENSE) file for more details.
+
+---
+
+## Autor / Author
+**Mateo Pinilla**
