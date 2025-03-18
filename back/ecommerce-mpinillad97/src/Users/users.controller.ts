@@ -14,6 +14,12 @@ import { ApiBearerAuth, ApiBody, ApiTags } from "@nestjs/swagger";
 export class UsersController{
     constructor(private readonly usersService: UsersService){}
 
+    @Get('/email')
+    getUserByEmail(@Body() email: string){
+        return this.usersService.findByEmail(email)
+    }
+
+
     @ApiBearerAuth()
     @Get()
     @HttpCode(200)
@@ -59,4 +65,7 @@ export class UsersController{
     deleteUser(@Param('id', ParseUUIDPipe) id: string){
         return this.usersService.deleteUser(id);
     }
+
+    
+
 }
